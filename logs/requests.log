@@ -14,3 +14,8 @@
 ::1 - - [01/Mar/2025:08:48:25 +0000] "POST /api/posts HTTP/1.1" 201 297 "-" "PostmanRuntime/7.43.0"
 ::1 - - [01/Mar/2025:08:52:13 +0000] "GET /api/posts HTTP/1.1" 404 148 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
 ::1 - - [01/Mar/2025:08:52:53 +0000] "GET /api/posts HTTP/1.1" 200 591 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+::1 - - [01/Mar/2025:08:56:46 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+::1 - - [01/Mar/2025:08:57:14 +0000] "POST /api/posts HTTP/1.1" 201 289 "-" "PostmanRuntime/7.43.0"
+::1 - - [01/Mar/2025:08:57:16 +0000] "GET /api/posts HTTP/1.1" 200 834 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+::1 - - [01/Mar/2025:09:04:16 +0000] "POST /api/login HTTP/1.1" 200 257 "-" "PostmanRuntime/7.43.0"
+::1 - - [01/Mar/2025:09:06:17 +0000] "GET /api/posts HTTP/1.1" 200 834 "-" "PostmanRuntime/7.43.0"
