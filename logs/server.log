@@ -1,0 +1,21 @@
+2025-03-01 13:43:59 [INFO]: Server running on port 8000
+2025-03-01 13:46:38 [INFO]: Server running on port 8000
+2025-03-01 13:46:44 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-01 13:46:54 [WARN]: Failed login attempt: Incorrect password for darshilgajul2003@gmail.com
+2025-03-01 13:47:03 [WARN]: Failed login attempt: Email not found (darshilgajul2003@gmai.com)
+2025-03-01 13:47:10 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-01 13:48:49 [INFO]: Server running on port 8000
+2025-03-01 13:49:16 [INFO]: Server running on port 8000
+2025-03-01 13:49:27 [INFO]: Server running on port 8000
+2025-03-01 13:49:29 [WARN]: Signup failed: Email already exists (darshilgajul200@gmail.com)
+2025-03-01 13:49:44 [INFO]: User registered: darshilgajul200@gmail.com
+2025-03-01 13:50:11 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-01 14:00:36 [INFO]: Server running on port 8000
+2025-03-01 14:02:07 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-01 14:10:08 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-01 14:15:18 [INFO]: Server running on port 8000
+2025-03-01 14:15:24 [INFO]: Post created by user darshilgajul2003@gmail.com:  First Post
+2025-03-01 14:17:01 [WARN]: Unauthorized post creation attempt by darshilgajul2003@gmail.com
+2025-03-01 14:18:25 [INFO]: Post created by user darshilgajul2003@gmail.com:  Second Post
+2025-03-01 14:22:46 [INFO]: Server running on port 8000
+2025-03-01 14:22:53 [INFO]: Posts fetched successfully: 2 results
