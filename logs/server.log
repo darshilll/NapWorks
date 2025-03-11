@@ -25,3 +25,54 @@
 2025-03-01 14:27:16 [INFO]: Posts fetched successfully: 3 results
 2025-03-01 14:34:16 [INFO]: User logged in: darshilgajul2003@gmail.com
 2025-03-01 14:36:17 [INFO]: Posts fetched successfully: 3 results
+2025-03-01 15:04:10 [INFO]: Posts fetched successfully: 3 results
+2025-03-01 15:07:22 [INFO]: Posts fetched successfully: 3 results
+2025-03-01 15:08:19 [INFO]: Posts fetched successfully: 3 results
+2025-03-01 15:09:47 [INFO]: Post created by user darshilgajul2003@gmail.com: Third Post
+2025-03-01 15:10:02 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-01 15:10:51 [INFO]: Posts fetched successfully: 4 results
+2025-03-01 15:11:03 [WARN]: Signup failed: Email already exists (darshilgajul200@gmail.com)
+2025-03-01 15:43:42 [INFO]: Server running on port 8000
+2025-03-01 15:44:54 [INFO]: Server running on port 8000
+2025-03-01 15:45:59 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-01 15:46:58 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-01 15:47:34 [INFO]: Posts fetched successfully: 4 results
+2025-03-01 15:47:59 [WARN]: Signup failed: Email already exists (darshilgajul200@gmail.com)
+2025-03-01 15:48:05 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-01 15:48:11 [INFO]: Posts fetched successfully: 4 results
+2025-03-01 15:48:30 [INFO]: Post created by user darshilgajul2003@gmail.com: Third Post
+2025-03-01 15:49:04 [INFO]: Posts fetched successfully: 5 results
+2025-03-02 00:52:46 [INFO]: Posts fetched successfully: 5 results
+2025-03-02 00:53:27 [INFO]: Posts fetched successfully: 5 results
+2025-03-02 12:18:39 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-02 12:18:53 [WARN]: Failed login attempt: Email not found (darshilgajul20@gmail.com)
+2025-03-02 21:36:16 [WARN]: Failed login attempt: Email not found (darshilgajul20@gmail.com)
+2025-03-02 21:36:22 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-02 21:36:23 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-02 21:36:24 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-02 21:36:26 [INFO]: User logged in: darshilgajul200@gmail.com
+2025-03-03 09:02:02 [INFO]: Server running on port 8000
+2025-03-03 09:03:14 [WARN]: Failed login attempt: Email not found (darshilgajul20@gmail.com)
+2025-03-03 09:03:22 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-03 09:04:07 [INFO]: Posts fetched successfully: 5 results
+2025-03-04 00:25:08 [INFO]: Server running on port 8000
+2025-03-04 00:28:25 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-04 00:28:37 [WARN]: Signup failed: Email already exists (darshilgajul200@gmail.com)
+2025-03-04 00:28:53 [INFO]: Posts fetched successfully: 5 results
+2025-03-10 23:19:55 [INFO]: Server running on port 8000
+2025-03-10 23:20:35 [INFO]: Posts fetched successfully: 5 results
+2025-03-10 23:21:02 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-10 23:55:57 [INFO]: Posts fetched successfully: 5 results
+2025-03-11 00:41:01 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-11 00:41:15 [WARN]: Post failed: "userId" is not allowed to be empty
+2025-03-11 00:41:22 [WARN]: Unauthorized post creation darshilgajul2003@gmail.com
+2025-03-11 00:41:33 [INFO]: Post created by user darshilgajul2003@gmail.com: Third Post
+2025-03-11 00:43:31 [INFO]: User logged in: darshilgajul2003@gmail.com
+2025-03-11 00:43:36 [INFO]: Post created by user darshilgajul2003@gmail.com: Third Post
+2025-03-11 11:08:27 [INFO]: Posts fetched successfully: 7 results
+2025-03-11 11:34:17 [WARN]: Post failed: "userId" is required
+2025-03-11 11:35:59 [WARN]: Post failed: "userId" is required
+2025-03-11 11:36:30 [WARN]: Post failed: "userId" is required
+2025-03-11 11:37:32 [WARN]: Post failed: "userId" is required
+2025-03-11 11:38:23 [INFO]: Server running on port 8000
+2025-03-11 11:38:30 [INFO]: Post created by user darshilgajul2003@gmail.com: Fourth Post

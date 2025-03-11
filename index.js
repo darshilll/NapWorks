@@ -17,9 +17,12 @@ const app = express();
 app.use(express.json());
 app.use(helmet());
 
+app.set("trust proxy", 1); 
+
 const logStream = fs.createWriteStream(path.join("logs", "requests.log"), {
   flags: "a",
 });
+
 app.use(morgan("combined", { stream: logStream }));
 app.use(morgan("dev"));
 
@@ -35,6 +38,7 @@ app.use(limiter);
 app.get("/", (req, res) => {
   return res.send("Hii from server");
 });
+
 
 app.use("/api", router);
 

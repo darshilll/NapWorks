@@ -9,17 +9,14 @@ export const handleCreatePost = async (req, res) => {
     return res.status(400).json({ msg: error.details[0].message });
   }
 
-  const { userId, postName, description, uploadTime, tags, imageUrl } =
-    req.body;
+  const { postName, description, uploadTime, tags, imageUrl } = req.body;
 
   try {
-    if (req.user.id !== userId) {
-      logger.warn(`Unauthorized post creation ${req.user.email}`);
-      return res.status(403).json({ msg: "Unauthorized" });
-    }
+    // Always take user ID from the authenticated token
+    const userId = req.user.id;
 
     const newPost = new Post({
-      userId,
+      userId, // Assign user ID from the token
       postName,
       description,
       uploadTime,
@@ -31,14 +28,13 @@ export const handleCreatePost = async (req, res) => {
 
     logger.info(`Post created by user ${req.user.email}: ${postName}`);
 
-    res
-      .status(201)
-      .json({ message: "Post created successfully", post: newPost });
+    res.status(201).json({ message: "Post created successfully", post: newPost });
   } catch (error) {
     logger.error(`Post failed: ${error.message}`);
     res.status(500).json({ msg: "Internal Server Error" });
   }
 };
+
 
 
 export const handleFetchPosts = async (req, res) => {
